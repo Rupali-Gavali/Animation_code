@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anni</title>
+
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 100vh;
+            background: #111;
+            animation: animate 3s linear infinite;
+        }
+        @keyframes animate{
+            0%
+            {
+                filter: hue-rotate(0deg);
+            }
+            100%
+            {
+                filter: hue-rotate(360deg);
+            }
+          
+        }
+        img.box
+        {
+            width:500px ;
+            height: 500px;
+        }
+        img.box img
+        {
+            width:100px ;
+            height: 100px;
+        }
+        </style>
+</head>
+<body>
+    <div class="img.box">
+        <img src="moon_rose.jpeg">
+    </div>
+</body>
+
+</html>
